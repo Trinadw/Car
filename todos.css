@@ -1,0 +1,10 @@
+body{
+	background:orange;
+}
+
+#special{
+	background: yellow;
+}
+.line{
+	text-decoration: line-through;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+<p>Do you prefer cats or dogs?</p>
+<form>
+<label for="dogs">Dogs</label>
+<input name="petChoice" id="dogs" type="radio" value="DOGS">
+<label for="cats">Cats</label>
+<input name="petChoice" id="cats" type="radio" value="CATS">
+<!-- same name allows user to only select one. -->
+<!-- value will show whats types in the address button for petChoice when the submit button is hit. Submit button at the end of the form will submit the form. -->
+<p>What is your favorite color?</p>
+<select name="color">
+	<option>Red</option>
+	<option>Orange</option>
+	<option>Yellow</option>
+</select><p>What is your mood?</p>
+<select name="color">
+	<option value="happy">:)</option>
+	<option value="neutral">:|</option>
+	<option value="sad">:(</option>
+</select>
+
+<input type="text">
+<textarea rows="10" cols="50"></textarea>
+<!-- textarea determines the size of the textbox for input. you can use it to allow for multiple rows of text -->
+<button>Go!</button>
+</form>
+</body>
+</html>

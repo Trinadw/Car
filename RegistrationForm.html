@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<div>
+<label>First Name: 
+<input name="firstname" type="text" placeholder="John" required></label>
+<label for="password">Last Name: </label>
+<input id="lastname" name="lastname" type="text" placeholder="Smith" required>
+</div>
+<div>
+<label for="male">Male</label>
+<input name="gender" id="male" type="radio" value="MALE">
+<label for="female">Female</label>
+<input name="gender" id="female" type="radio" value="FEMALE">
+<label for="other">Other</label>
+<input name="gender" id="other" type="radio" value="OTHER">
+</div>
+<div>
+	<label>Email: </label>
+<input name="email" type="email" placeholder="Email" required></label>
+<label>Password: </label>
+<input type="password" name="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+<!-- title will allow you to create the error that will show when input is invalid
+or 
+<input name="password" type="password" minlength="5" maxlength="10">--></label>
+</div>
+	<label>Birthday: 
+	<select name="Month">
+	<option>Month</option>
+	<option>January</option>
+	<option>Febuary</option>
+	<option>March</option>
+	<option>April</option>
+	<option>May</option>
+	<option>June</option>
+</select>
+<select name="day">
+	<option>Day</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+</select>
+<select name="year">
+	<option>Year</option>
+	<option>1980</option>
+	<option>2007</option>
+	<option>1993</option>
+	<option>1994</option>
+	<option>1995</option>
+	<option>2006</option>
+</select></label>
+<p>I agree to the terms and conditions <input type="checkbox"></p>
+<input type="Submit">
+</form>
+</body>
+</html>
